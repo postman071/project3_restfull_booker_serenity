@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="com.restful.booker.restfullbookersteps.BookingCRUDTest" skipped="0" tests="5" time="4.8" timestamp="2023-08-09T00:36:49.239+01:00[Europe/London]"><testcase classname="com.restful.booker.restfullbookersteps.BookingCRUDTest" name="This will create a new Token"/><testcase classname="com.restful.booker.restfullbookersteps.BookingCRUDTest" name="This will create a new Booking"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;500&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;500&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restful.booker.restfullbookersteps.BookingCRUDTest.test002(BookingCRUDTest.java:49)&#13;
+</system-err></testcase><testcase classname="com.restful.booker.restfullbookersteps.BookingCRUDTest" name="This will Update Booking"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;400&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restful.booker.restfullbookersteps.BookingCRUDTest.test003(BookingCRUDTest.java:67)&#13;
+</system-err></testcase><testcase classname="com.restful.booker.restfullbookersteps.BookingCRUDTest" name="This will Get Booking by BookingId"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restful.booker.restfullbookersteps.BookingCRUDTest.test004(BookingCRUDTest.java:81)&#13;
+</system-err></testcase><testcase classname="com.restful.booker.restfullbookersteps.BookingCRUDTest" name="This will delete Booking by BookingId"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;405&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;405&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;405&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restful.booker.restfullbookersteps.BookingCRUDTest.test005(BookingCRUDTest.java:97)&#13;
+</system-err></testcase></testsuite>
